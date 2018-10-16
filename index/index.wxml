@@ -1,0 +1,3 @@
+<text>获取用户位置信息：</text>
+<text>latitude:{{latitude}}</text>
+<text>longitude:{{longitude}}</text>
