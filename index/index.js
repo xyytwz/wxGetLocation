@@ -6,7 +6,11 @@ Page({
     longitude: ""
   },
   onLoad: function() {
-    this.getLocation()
+    //this.getLocation()
+    wx.showToast({
+      title: '更改代码，目录树中页面右侧就会出现相应的改动标志M',
+      icon:'none'
+    })
   },
   /**
    * 3.3.1 获取用户定位
