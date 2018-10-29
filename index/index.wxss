@@ -1,3 +1,7 @@
-text{
-  display: block;
+page{
+  padding:30rpx;
+}
+.btn button{
+  width:80%;
+  margin:40rpx auto 20rpx auto;  
 }

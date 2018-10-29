@@ -1,3 +1,8 @@
 <text>获取用户位置信息：</text>
-<text>latitude:{{latitude}}</text>
-<text>longitude:{{longitude}}</text>
+<text class='block'>latitude:{{latitude}}</text>
+<text class='block'>longitude:{{longitude}}</text>
+<modal name="reAuthorizePop" hidden="{{hiddenReAuthorizePop}}" content="{{content}}" type="slot">
+<view class='btn'>
+  <button type='mini' plain="true" type='primary' bindtap='openLocationSetting'>重新授权</button>
+</view>
+</modal>
